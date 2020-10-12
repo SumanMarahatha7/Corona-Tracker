@@ -10,12 +10,11 @@ import Navbar from './components/Navbar.js';
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div>
     <Navbar />
-    <center><h1>Welcome to Corona Tracker</h1></center>
     <Switch>
     <Route path="/" exact component={Home} />
-    <Route path="/country" exact component={Country} />
+    <Route path="/countrylist" exact component={Country} />
     <Route path="/country/:id" component={CountrySingle} />
     <Route path="/news" exact component={News} />
     <Redirect to="/" />
