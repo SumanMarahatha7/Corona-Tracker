@@ -9,3 +9,59 @@
 body{
     font-family: 'Roboto' sans-serif;
 }
+
+.search-card{
+	background-color: indigo !important;
+}
+
+.search-input{
+	background-color: transparent;
+	color: white;
+	border-radius: 5px;
+	border: 1.5px solid white;
+}
+
+.country-select{
+	font-weight: 500;
+}
+
+.countries-link{
+	cursor: pointer;
+	border-bottom: 1px solid grey;
+}
+
+.search-country-link{
+	cursor: pointer;
+}
+
+.countries-link:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+
+.countries-link-title{
+	font-weight: bold;
+	border-bottom: 1px solid grey;
+}
+
+.country-btn{
+	font-size: 0.5em !important;
+}
+
+.main-card-number{
+	font-size: 30px;
+}
+
+.main-card-color{
+	background-color: indigo !important;
+	color: white;
+	font-size: 1.1em;
+}
+
+.main-select{
+	width: 50px;
+	font-size: 1em;
+}
+
+.country-detail-col{
+	height: 30px;
+}
